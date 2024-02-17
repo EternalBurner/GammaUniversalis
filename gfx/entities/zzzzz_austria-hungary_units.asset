@@ -1,0 +1,98 @@
+entity = { 
+	clone = "HAB_INFANTRY_1"	
+	name = "AUH_INFANTRY_1" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_2"	
+	name = "AUH_INFANTRY_2" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_3"	
+	name = "AUH_INFANTRY_3" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_4"	
+	name = "AUH_INFANTRY_4" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_1"	
+	name = "AUH_CAVALRY_1" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_2"	
+	name = "AUH_CAVALRY_2" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_3"	
+	name = "AUH_CAVALRY_3" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_4"	
+	name = "AUH_CAVALRY_4" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_1"	
+	name = "AUH_ARTILLERY_1" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_2"	
+	name = "AUH_ARTILLERY_2" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_3"	
+	name = "AUH_ARTILLERY_3" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_4"	
+	name = "AUH_ARTILLERY_4" 
+}
+
+entity = { 
+	clone = "HAB_INFANTRY_1"	
+	name = "EOA_INFANTRY_1" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_2"	
+	name = "EOA_INFANTRY_2" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_3"	
+	name = "EOA_INFANTRY_3" 
+}
+entity = { 
+	clone = "HAB_INFANTRY_4"	
+	name = "EOA_INFANTRY_4" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_1"	
+	name = "EOA_CAVALRY_1" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_2"	
+	name = "EOA_CAVALRY_2" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_3"	
+	name = "EOA_CAVALRY_3" 
+}
+entity = { 
+	clone = "HAB_CAVALRY_4"	
+	name = "EOA_CAVALRY_4" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_1"	
+	name = "EOA_ARTILLERY_1" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_2"	
+	name = "EOA_ARTILLERY_2" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_3"	
+	name = "EOA_ARTILLERY_3" 
+}
+entity = { 
+	clone = "HAB_ARTILLERY_4"	
+	name = "EOA_ARTILLERY_4" 
+}
+

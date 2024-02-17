@@ -1,0 +1,277 @@
+namespace = ad_event
+
+#Swedish nobility
+country_event = {
+	id = ad_event_swe.3
+	title = "ad_event_swe.3.t"
+	desc = "ad_event_swe.3.d"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		is_year = 1550
+		OR = {
+			tag = SWE
+			tag = SCA
+		}
+		is_lesser_in_union = no
+		government = monarchy
+		NOT = {
+			has_global_flag = ad_nobility_swe_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = ad_nobility_swe_flag
+		}
+	}
+	
+	option = {
+		name = "ad_event_swe.3.op1"
+		define_ruler = {
+			name = "Gustav I"
+			dynasty = "Vasa"
+			culture = swedish
+			fixed = yes
+			adm = 5
+			dip = 5
+			mil = 6
+			leader = {	name = "Gustav I" 	type = general	fire = 4	shock = 2	manuever = 3	siege = 3 }
+		}
+	}
+	
+	option = {
+		name = "ad_event_swe.3.op2"
+		add_legitimacy = 100
+	}
+}
+
+#Dutch nobility
+country_event = {
+	id = ad_event_hol.4
+	title = "ad_event_hol.4.t"
+	desc = "ad_event_hol.4.d"
+	picture = COURT_eventPicture
+	
+	
+	trigger = {
+		is_year = 1525
+		OR = {
+			tag = HOL
+			tag = NED
+		}
+		is_lesser_in_union = no
+		government = monarchy
+		NOT = {
+			has_global_flag = ad_nobility_hol_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = ad_nobility_hol_flag
+		}
+	}
+	
+	option = {
+		name = "ad_event_hol.4.op1"
+		define_ruler = {
+			name = "Willem I"
+			dynasty = "van Oranje"
+			culture = dutch
+			fixed = yes
+			adm = 5
+			dip = 5
+			mil = 5
+			leader = { name = "Willem van Oranje"	type = general	fire = 4	shock = 2	manuever = 3	siege = 3 }
+		}
+	}
+	option = {
+		name = "ad_event_hol.4.op2"
+		add_legitimacy = 100
+	}
+}
+
+#Italian nobility
+country_event = {
+	id = ad_event_ita.5
+	title = "ad_event_ita.5.t"
+	desc = "ad_event_ita.5.d"
+	picture = COURT_eventPicture
+	
+	
+	trigger = {
+		is_year = 1550
+		tag = ITA
+		is_lesser_in_union = no
+		government = monarchy
+		NOT = {
+			has_global_flag = ad_nobility_ita_flag
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = ad_nobility_ita_flag
+		}
+	}
+
+	option = {
+		name = "ad_event_ita.5.op1"
+		define_ruler = {
+			name = "Cosimo I"
+			dynasty = "de' Medici"
+			culture = tuscan
+			fixed = yes
+			adm = 6
+			dip = 4
+			mil = 4
+		}
+	}
+	option = {
+		name = "ad_event_ita.5.op2"
+		define_ruler = {
+			name = "Ludovico I"
+			dynasty = "di Savoia"
+			culture = piedmontese
+			fixed = yes
+			adm = 4
+			dip = 6
+			mil = 4
+		}
+	}
+	option = {
+		name = "ad_event_ita.5.op3"
+		define_ruler = {
+			name = "Francesco I"
+			dynasty = "Sforza"
+			culture = lombard
+			fixed = yes
+			adm = 4
+			dip = 4
+			mil = 6
+		}
+	}
+	option = {
+		name = "ad_event_ita.5.op4"
+		add_legitimacy = 100
+	}
+}
+
+# #Vladimir Lenin
+# country_event = {
+# 	id = ad_event_sov.7
+# 	title = "ad_event_sov.7.t"
+# 	desc = "ad_event_sov.7.d"
+# 	picture = COURT_eventPicture
+
+
+# 	fire_only_once = yes
+
+# 	trigger = {
+# 		is_year = 1650
+# 		tag = SOV
+# 		government = republic
+# 		NOT = {
+# 			has_global_flag = with_lenin_sov_flag
+# 		}
+# 	}
+
+# 	mean_time_to_happen = {
+# 		months = 1
+# 	}
+
+# 	immediate = {
+# 		hidden_effect = {
+# 			set_global_flag = with_lenin_sov_flag
+# 		}
+# 		33 = {
+# 			change_province_name = "Leningrad"
+# 		}
+# 		1971 = {
+# 			change_province_name = "Stalingrad"
+# 		}
+# 	}
+
+# 	option = {
+# 		name = "ad_event_sov.7.a"
+# 		define_ruler = {
+# 			name = "Vladimir Lenin"
+# 			culture = russian
+# 			fixed = yes
+# 			adm = 5
+# 			dip = 5
+# 			mil = 5
+# 			age = 20
+# 		}
+# 		if = {
+# 			limit = {
+# 				has_dlc = "Right of Man"
+# 			}
+# 			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+# 		}
+# 	}
+# }
+# #Mustafa Kemal Ataturk
+# country_event = {
+# 	id = ad_event_tky.8
+# 	title = "ad_event_tky.8.t"
+# 	desc = "ad_event_tky.8.d"
+# 	picture = COURT_eventPicture
+
+
+# 	fire_only_once = yes
+
+# 	trigger = {
+# 		is_year = 1650
+# 		tag = TKY
+# 		government = republic
+# 		NOT = {
+# 			has_global_flag = with_ataturk_tky_flag
+# 		}
+# 	}
+
+# 	mean_time_to_happen = {
+# 		months = 1
+# 	}
+
+# 	immediate = {
+# 		hidden_effect = {
+# 			set_global_flag = with_ataturk_tky_flag
+# 			TKY = {
+# 				add_government_reform = presidential_despot_reform
+# 			}
+# 		}
+# 	}
+
+# 	option = {
+# 		name = "ad_event_tky.8.a"
+# 		define_ruler = {
+# 			name = "Mustafa Kemal Ataturk"
+# 			culture = turkish
+# 			fixed = yes
+# 			adm = 6
+# 			dip = 5
+# 			mil = 6
+# 			age = 25
+# 		}
+# 		if = {
+# 			limit = {
+# 				has_dlc = "Right of Man"
+# 			}
+# 			hidden_effect = { add_ruler_personality = inspiring_leader_personality }
+# 		}
+# 	}
+# }
